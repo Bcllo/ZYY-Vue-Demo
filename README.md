@@ -17,6 +17,4 @@ npm create vite@latest
 
 出现无法上传的情况：
 https://blog.csdn.net/weixin_45091011/article/details/125365034
-token：
-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
-有效期：2022/10/18 开始 30 天
+token有效期：2022/10/18 开始 30 天
