@@ -7,17 +7,18 @@ const routes: Array<RouteRecordRaw> = [
 		component: () => import("../views/initialCode/hello.vue"),
 		meta: { keepAlive: true },
 	},
-	// {
-	// 	path: "/hello",
-	// 	name: "Hello",
-	// 	component: () => import("../views/initialCode/hello.vue"),
-	// 	meta: { keepAlive: true },
-	// },
-	//   {
-	//     path: "/categoryAdd",
-	//     name: "categoryAdd",
-	//     component: () => import("../components/categoryManage/categoryAdd.vue"),
-	//   },
+	{
+		path: "/threeColumnContents",
+		name: "threeColumnContents",
+		component: () =>
+			import("../views/staticPageLayout/threeColumnContents.vue"),
+		meta: { keepAlive: true },
+	},
+	{
+		path: "/hoverBoard",
+		name: "hoverBoard",
+		component: () => import("../views/hoverDemo/hoverBoard.vue"),
+	},
 ];
 
 export { routes };
