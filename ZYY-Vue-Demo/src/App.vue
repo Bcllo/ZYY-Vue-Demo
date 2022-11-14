@@ -43,6 +43,16 @@ import { useRoute, useRouter } from "vue-router";
                 分栏 - 三栏内容
               </el-menu-item>
             </el-sub-menu>
+            <el-sub-menu index="1-2">
+              <template #title>
+                <span>静态页面动画效果</span>
+              </template>
+              <el-menu-item 
+                index="1-2-1"
+                route="/progressSteps">
+                流程步骤-动画效果
+              </el-menu-item>
+            </el-sub-menu>
           </el-sub-menu>
           <!-- /hoverBoard -->
           <el-sub-menu index="1-2">

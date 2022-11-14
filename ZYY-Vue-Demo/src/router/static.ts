@@ -19,6 +19,11 @@ const routes: Array<RouteRecordRaw> = [
 		name: "hoverBoard",
 		component: () => import("../views/hoverDemo/hoverBoard.vue"),
 	},
+	{
+		path: "/progressSteps",
+		name: "progressSteps",
+		component: () => import("../views/staticPageLayout/progressSteps.vue"),
+	},
 ];
 
 export { routes };
